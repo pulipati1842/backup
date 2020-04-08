@@ -1,0 +1,32 @@
+Started by user [8mha:////4Dw8EA4Q8SjYmio/sm2D/+sFWj3hTNrSb38iaElCR6nyAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgY+/dLi1CL9gtKczILEkkwAnj2FRsMAAAA=[0mpulipati rajesh
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/back_up
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/pulipati1842/helloworld
+ > git init /var/lib/jenkins/workspace/back_up # timeout=10
+Fetching upstream changes from https://github.com/pulipati1842/helloworld
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/pulipati1842/helloworld +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/pulipati1842/helloworld # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/pulipati1842/helloworld # timeout=10
+Fetching upstream changes from https://github.com/pulipati1842/helloworld
+ > git fetch --tags --progress -- https://github.com/pulipati1842/helloworld +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 649d8b1484235ea186b060fae08c5ca1598a8327 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 649d8b1484235ea186b060fae08c5ca1598a8327 # timeout=10
+Commit message: "Added time stamp to make each run unique (sign of life)"
+First time build. Skipping changelog.
+[back_up] $ /bin/sh -xe /tmp/jenkins3762676033621721881.sh
++ pwd
+/var/lib/jenkins/workspace/back_up
++ ls
+README.md
+pom.xml
+src
+Finished: SUCCESS
